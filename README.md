@@ -1,3 +1,3 @@
 # Spark-Human_Activity
-Apache Spark- Predvidjanje ljudske aktivnosti preko pythona
-### Zakljucak kada se prebaca iz Spark DataFrame u Pandu DataFrame izgubi se raspored redova. Redovi se izmesaju i nije prikladno za vremensku seriju.
+Apache Spark- Forecasting human activity using PySpark
+### When data are cast between spark api DataFrame and pandas, rows are shufled. It's not aproprate when analysing time series problems!!
